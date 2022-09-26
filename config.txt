@@ -1,0 +1,27 @@
+{
+# 公众号配置
+# 公众号appId
+"app_id": "wxb03f6482e55e88d2",
+# 公众号appSecret
+"app_secret": "38f9a994364c3068612e95a80ab5faab",
+# 模板消息id
+"template_id": "KW2NqkHdm4gT9JHPmWgBZKgF2_89PpC7xu_jJOhhhX8",
+# 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
+"user": ["o5ab16NT7u3lJlKga3qbOCutdNcc","o5ab16ByEUJq0-3P2XkL2TtwQuy4"],
+ 
+# 信息配置
+# 和风天气apikey
+"weather_key": "78da103153874d179797cadcc0f3ef5c",
+# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
+"region": "天津市",
+# 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
+"birthday1": {"name": "臭屁哥哥", "birthday": "1996-05-11"},
+# 生日2
+"birthday2": {"name": "哼唧妹妹", "birthday": "1997-03-03"},
+# 在一起的日子，格式同上，暂不不支持农历
+"love_date": "2022-08-21",
+# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
+"note_ch": "这个世界怎么要求你，那是它的事，我最偏心你，我的糖都给你吧😎",
+# 金句英文
+"note_en": "What the world demands of you, that's its business. I'm the most partial to you. Give you all my sugar."
+}
